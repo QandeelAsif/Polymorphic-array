@@ -3,18 +3,18 @@ package polymorphicarray;
 public class PolymorphismMethodOverloading {
 
     // Method to add two integers
-    public int add(int a, int b) {
-        return a + b;
+    public int add(int var1, int var2) {
+        return var1 + var2;
     }
 
     // Overloaded method to add three integers
-    public int add(int a, int b, int c) {
-        return a + b + c;
+    public int add(int var1, int var2, int var3) {
+        return var1 + var2 + var3;
     }
 
     // Overloaded method to add two double values
-    public double add(double a, double b) {
-        return a + b;
+    public double add(double var1, double var2) {
+        return var1 + var2;
     }
 
     public static void main(String[] args) {
